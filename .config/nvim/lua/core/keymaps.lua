@@ -1,0 +1,7 @@
+vim.keymap.set('n', ';', 'A;<Esc>')
+vim.keymap.set('n', '<leader>n', ':tabnew<CR>')
+vim.keymap.set('n', '<leader>w', ':bd<CR>')
+vim.keymap.set('n', '<leader><Tab>', ':tabn<CR>')
+vim.keymap.set('n', '<leader><S-Tab>', ':tabp<CR>')
+vim.keymap.set('t', '<Esc>', '<C-\\><C-n>')
+vim.keymap.set('n', '<leader>y', ':%y+"<CR>')
